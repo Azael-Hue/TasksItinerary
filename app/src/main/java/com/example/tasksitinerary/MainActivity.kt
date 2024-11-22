@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.home -> replaceFragment(Home())
                 R.id.add_task -> replaceFragment(AddTask())
-                R.id.calendar -> replaceFragment(Calendar())
 
                 else -> {
 
